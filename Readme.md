@@ -14,7 +14,7 @@ This repository contains a Python notebook for analyzing tweets related to the *
 Ensure the following are installed on your machine:
 
 - **Python 3.x**
-- **Jupyter Notebook** or any Python-compatible IDE (such as VSCode or PyCharm)
+- **Collab or Jupyter Notebook** or any Python-compatible IDE (such as VSCode or PyCharm)
 - **Data Files**: Place all data files in a folder named `data` within the project directory. The data is not included in this repository due to size limitations.
   - **farmers-protest-tweets.json**: Contains raw tweet data.
   - **tweet_document_ids_map.csv**: Maps tweet IDs to document IDs.
@@ -53,7 +53,7 @@ Ensure the following are installed on your machine:
 ## Output
 
 The notebook will generate:
-- A pre-processed dataset where each tweet is cleaned, tokenized, and stored as a Python dictionary.
+- A pre-processed dataset where each tweet is cleaned, tokenized.
 - Exploratory data visualizations such as word frequency distribution and hashtag analysis.
 
 ## Features
