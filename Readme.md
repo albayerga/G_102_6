@@ -6,9 +6,8 @@ This repository contains a Python notebook for analyzing tweets related to the *
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Output] (#output)
 - [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Prerequisites
 
