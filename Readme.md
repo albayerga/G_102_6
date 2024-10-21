@@ -1,6 +1,6 @@
 # Project Overview
 
-This repository contains a Python notebook for analyzing tweets related to the **Farmers' Protest 2021**.  The notebook performs pre-processing of the tweets and covers tasks such as **Exploratory Data Analysis (EDA)**, **Entity Recognition**, **Word Cloud Generation**, and more.
+This repository contains a Python notebook for analyzing tweets related to the **Farmers' Protest 2021**.  The notebook performs pre-processing of the tweets and covers tasks such as **Exploratory Data Analysis **, **Entity Recognition**, **Word Cloud Generation**, and more.
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
