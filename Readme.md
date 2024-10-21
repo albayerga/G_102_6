@@ -20,4 +20,4 @@ Ensure you have the following installed:
 
 2. **Run the cells one by one**
 
-- To install world cloud we used "pip install worldcloud" but maybe you have to use another way.
+- To install `worldcloud` we used `pip install worldcloud` but maybe you have to use another way.
