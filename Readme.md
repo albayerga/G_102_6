@@ -6,7 +6,7 @@ This repository contains a Python notebook for analyzing tweets related to the *
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Output] (#output)
+- [Output](#output)
 - [Features](#features)
 
 ## Prerequisites
@@ -51,10 +51,13 @@ Ensure the following are installed on your machine:
    - Execute the cells sequentially for preprocessing and exploratory data analysis, which include various tasks like entity recognition and word cloud generation.
 
 ## Output
+
 The notebook will generate:
 - A pre-processed dataset where each tweet is cleaned, tokenized, and stored as a Python dictionary.
 - Exploratory data visualizations such as word frequency distribution and hashtag analysis.
+
 ## Features
+
 - **Pre-processing**
 - **Exploratory Data Analysis (EDA)**:
   - Word count distribution
