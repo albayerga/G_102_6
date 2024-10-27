@@ -19,17 +19,6 @@ Ensure the following are installed on your machine:
   - **farmers-protest-tweets.json**: Contains raw tweet data.
   - **tweet_document_ids_map.csv**: Maps tweet IDs to document IDs.
 
-## Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/albayerga/G_102_6.git
-   cd G_102_6
-   ```
-   
-2. **Run the notebook**:
-   Open the notebook in Visual Studio Coder, Collab or your preferred IDE and execute the cells step by step.
-
 ## Usage
 
 1. **Data Folder**:
