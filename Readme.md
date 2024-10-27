@@ -27,18 +27,7 @@ Ensure the following are installed on your machine:
    cd G_102_6
    ```
    
-2. **Install the required libraries**:
-   If you encounter any missing dependencies during execution, install individual libraries as you go:
-   ```bash
-   python3 -m pip install <module_name>
-   ```
-
-   Or install directly inside a Jupyter notebook cell:
-   ```python
-   pip install <module_name>
-   ```
-
-3. **Run the notebook**:
+2. **Run the notebook**:
    Open the notebook in Visual Studio Coder, Collab or your preferred IDE and execute the cells step by step.
 
 ## Usage
