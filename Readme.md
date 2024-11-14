@@ -78,6 +78,12 @@ To evaluate the search engine’s performance, several metrics are implemented a
 ### Key Results
 The evaluation metrics provide insight into the search engine’s performance and guide improvements in the indexing or ranking algorithms.
 
+### Ranking Methods
+- **TF-IDF + cosine similarity**: Ranks tweets by measuring relevance through term frequency and inverse document frequency, adjusted by cosine similarity.
+- **Our score + cosine similarity**: Ranks tweets by combining tweet popularity (e.g., retweets or likes) with cosine similarity for relevance.
+- **BM25**: A probabilistic model that ranks tweets based on term frequency and saturation, favoring shorter and more relevant tweets.
+- **Word2Vec + cosine similarity**: Ranks tweets by semantic similarity using word embeddings, measured through cosine similarity.
+
 ## Features
 
 - **Pre-processing**
