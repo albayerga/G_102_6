@@ -30,7 +30,7 @@ Ensure the following are installed on your machine:
    - The data should be in a structured format like CSV or JSON (or GZ if the data file is compressed).
 
 2. **Notebook Execution**:
-   - Open the `part1.ipynb` notebook.
+   - Open the `project.ipynb` notebook.
    - Execute the cells sequentially for preprocessing and exploratory data analysis, which include various tasks like entity recognition and word cloud generation.
    - Execute cells for building the search index, performing document retrieval based on queries, and evaluating performance metrics.
 
