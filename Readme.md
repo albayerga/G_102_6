@@ -75,7 +75,10 @@ To evaluate the search engine’s performance, several metrics are implemented a
 
 ## Scoring methods
 **Scoring Based on TF-IDF**
+
 **Scoring Based on popularity** :This project implements a custom popularity score to rank tweets based on both content relevance and social engagement. The popularity score is calculated using metrics like likes, retweets, comments, hashtags, and the user's follower count, assigning weights to each based on their impact on tweet popularity. The final score integrates both content relevance (using TF-IDF and cosine similarity) and popularity, weighted to prioritize content but still factor in social influence. The combined score balances content quality with social reach for a comprehensive ranking system.
+
+
 **Scoring Based on BM25** : This project uses BM25 to rank documents based on query relevance, optimizing retrieval by precomputing document length (Ld) and average document length (Lave). Query terms are matched to documents, and scores are computed to rank results efficiently.
 
 
