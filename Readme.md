@@ -42,6 +42,8 @@ The notebook will generate:
 - A term-document index with TF-IDF weighting.
 - Search results for predefined and custom queries.
 - Evaluation metrics, including Precision, Recall, F1 Score, MAP, MRR, and NDCG.
+- Ranking methods, including TF-IDF + cosine similarity, Our-Score + cosine similarity, BM25 and Word2vec + cosine
+similarity.
 
 ## Index Construction and Evaluation
 
@@ -81,3 +83,4 @@ The evaluation metrics provide insight into the search engine’s performance an
 - **Pre-processing**
 - **Exploratory Data Analysis (EDA)**
 - **Index Construction and Evaluation**
+- **Ranking**
