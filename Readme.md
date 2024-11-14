@@ -16,8 +16,8 @@ Ensure the following are installed on your machine:
 
 - **Python 3.x**
 - **Collab or Jupyter Notebook** or any Python-compatible IDE (such as VSCode or PyCharm)
-- **Data Files**: Place all data files in a folder named `data` within the project directory. The data is not included in this repository due to size limitations.
-  - **farmers-protest-tweets.json**: Contains raw tweet data.
+- **Data Files**: Use this repository data folder to access all necessary data.
+  - **farmers-protest-tweets.json.gz**: Contains raw tweet data. Note that we copressed the file due its large size.
   - **tweet_document_ids_map.csv**: Maps tweet IDs to document IDs.
   - **evaluation.csv**: ground truth file for queries 1 & 2.
 
@@ -25,7 +25,7 @@ Ensure the following are installed on your machine:
 
 1. **Data Folder**:
    - Ensure all tweet data is stored in the `data/` folder, with appropriate file names matching the notebook paths.
-   - The data should be in a structured format like CSV or JSON.
+   - The data should be in a structured format like CSV or JSON (or GZ if the data file is compressed).
 
 2. **Notebook Execution**:
    - Open the `part1.ipynb` notebook.
