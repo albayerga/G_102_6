@@ -73,6 +73,12 @@ To evaluate the search engine’s performance, several metrics are implemented a
 - **Mean Reciprocal Rank (MRR)**: Reciprocal of the rank of the first relevant document, averaged across queries, to measure responsiveness.
 - **NDCG** (Normalized Discounted Cumulative Gain): A normalized ranking metric reflecting the quality of document ranking by relevance.
 
+### Other scoring methods
+Scoring Based on TF-IDF
+Scoring Based on popularity
+Scoring Based on BM25
+
+
 ### Key Results
 The evaluation metrics provide insight into the search engine’s performance and guide improvements in the indexing or ranking algorithms.
 
