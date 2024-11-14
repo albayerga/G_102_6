@@ -80,9 +80,10 @@ The evaluation metrics provide insight into the search engine’s performance an
 
 ## Ranking Methods
 - **TF-IDF + cosine similarity**: Ranks tweets by measuring relevance through term frequency and inverse document frequency, adjusted by cosine similarity.
-- **Our score + cosine similarity**: Ranks tweets by combining tweet popularity (e.g., retweets or likes) with cosine similarity for relevance.
-- **BM25**: A probabilistic model that ranks tweets based on term frequency and saturation, favoring shorter and more relevant tweets.
+- **Our score + cosine similarity**: Ranks tweets by combining tweet popularity (e.g., retweets or likes) with tf-idfcosine similarity for relevance.This project implements a custom popularity score to rank tweets based on both content relevance and social engagement. The popularity score is calculated using metrics like likes, retweets, comments, hashtags, and the user's follower count, assigning weights to each based on their impact on tweet popularity. The final score integrates both content relevance (using TF-IDF and cosine similarity) and popularity, weighted to prioritize content but still factor in social influence. The combined score balances content quality with social reach for a comprehensive ranking system.
+- **BM25**: A probabilistic model that ranks tweets based on term frequency and saturation.
 - **Word2Vec + cosine similarity**: Ranks tweets by semantic similarity using word embeddings, measured through cosine similarity.
+
 
 ## Features
 
