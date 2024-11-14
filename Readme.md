@@ -8,7 +8,7 @@ This repository contains a Python notebook for analyzing tweets related to the *
 - [Usage](#usage)
 - [Output](#output)
 - [Index Construction and Evaluation](#index-construction-and-evaluation)
-- [Other scoring methods](#Other-scoring-methods)
+- [Ranking methods](#ranking-methods)
 - [Features](#features)
   
 
@@ -78,7 +78,7 @@ To evaluate the search engine’s performance, several metrics are implemented a
 ### Key Results
 The evaluation metrics provide insight into the search engine’s performance and guide improvements in the indexing or ranking algorithms.
 
-### Ranking Methods
+## Ranking Methods
 - **TF-IDF + cosine similarity**: Ranks tweets by measuring relevance through term frequency and inverse document frequency, adjusted by cosine similarity.
 - **Our score + cosine similarity**: Ranks tweets by combining tweet popularity (e.g., retweets or likes) with cosine similarity for relevance.
 - **BM25**: A probabilistic model that ranks tweets based on term frequency and saturation, favoring shorter and more relevant tweets.
