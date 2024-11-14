@@ -1,6 +1,6 @@
 # Project Overview
 
-This repository contains a Python notebook for analyzing tweets related to the **Farmers' Protest 2021**.  The notebook performs pre-processing of the tweets and covers tasks such as **Exploratory Data Analysis**, **Entity Recognition**, **Index Construction**, and **Evaluation** of search performance.
+This repository contains a Python notebook for analyzing tweets related to the **Farmers' Protest 2021**.  The notebook performs pre-processing of the tweets and covers tasks such as **Exploratory Data Analysis**, **Entity Recognition**, **Index Construction**, **Evaluation** and **Scoring Methods** .
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
@@ -74,9 +74,9 @@ To evaluate the search engine’s performance, several metrics are implemented a
 - **NDCG** (Normalized Discounted Cumulative Gain): A normalized ranking metric reflecting the quality of document ranking by relevance.
 
 ### Other scoring methods
-Scoring Based on TF-IDF
-Scoring Based on popularity
-Scoring Based on BM25
+**Scoring Based on TF-IDF**
+**Scoring Based on popularity** :This project implements a custom popularity score to rank tweets based on both content relevance and social engagement. The popularity score is calculated using metrics like likes, retweets, comments, hashtags, and the user's follower count, assigning weights to each based on their impact on tweet popularity. The final score integrates both content relevance (using TF-IDF and cosine similarity) and popularity, weighted to prioritize content but still factor in social influence. The combined score balances content quality with social reach for a comprehensive ranking system.
+**Scoring Based on BM25** : This project uses BM25 to rank documents based on query relevance, optimizing retrieval by precomputing document length (Ld) and average document length (Lave). Query terms are matched to documents, and scores are computed to rank results efficiently.
 
 
 ### Key Results
