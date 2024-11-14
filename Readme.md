@@ -8,7 +8,7 @@ This repository contains a Python notebook for analyzing tweets related to the *
 - [Usage](#usage)
 - [Output](#output)
 - [Index Construction and Evaluation](#index-construction-and-evaluation)
-- [Other scoring methods](#Other-scoring-methods)
+- [Scoring methods](#Scoring-methods)
 - [Features](#features)
   
 
