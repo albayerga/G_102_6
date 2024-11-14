@@ -1,6 +1,6 @@
 # Project Overview
 
-This repository contains a Python notebook for analyzing tweets related to the **Farmers' Protest 2021**.  The notebook performs pre-processing of the tweets and covers tasks such as **Exploratory Data Analysis**, **Entity Recognition**, **Index Construction**, and **Evaluation** of search performance.
+This repository contains a Python notebook for analyzing tweets related to the **Farmers' Protest 2021**.  The notebook performs pre-processing of the tweets and covers tasks such as **Exploratory Data Analysis**, **Entity Recognition**, **Index Construction**, **Evaluation** of search performance and **Ranking**.
 
 ## Table of Contents
 - [Prerequisites](#prerequisites)
